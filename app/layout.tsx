@@ -29,8 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav>
-          <Link href="/auth/signin">Sign In</Link>
-          <Link href="/auth/signup">Sign Up</Link>
+          <Link href="/signin">Sign In</Link>
+          <Link href="/signup">Sign Up</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
         </nav>
